@@ -1,0 +1,109 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+
+  background-image: url('../images/backgorund.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #007aff;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f0f4f9;
+}
+
+form {
+  background: #fff;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+.exam-container, .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card, .exam-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.card:hover, .exam-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card a, .exam-button ,.button{
+  background: #007aff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.card a:hover, .exam-button:hover {
+  background: #005fcc;
+}
+
+img{
+  width: 80%;
+}

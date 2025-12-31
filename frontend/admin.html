@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam Admin Panel</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Admin Panel - Online Exam Portal</h2>
+
+    <form id="createExamForm">
+        <h3>Create New Exam</h3>
+        <label for="title">Exam Title</label>
+        <input type="text" id="title" name="title" required>
+        <button type="submit">Add Exam</button>
+    </form>
+
+    <form id="addQuestionForm">
+        <h3>Add Questions to Exam</h3>
+        <label for="examSelect">Select Exam:</label>
+        <select id="examSelect" required>
+            <option value="">--Select Exam --</option>
+        </select>
+
+        <h4>Questions</h4>
+        <div id="questionsContainer"></div>
+        <button type="button" id="addQuestionBtn">Add Question</button>
+
+        <button type="submit">Create Questions</button>
+    </form>
+
+    <div style="text-align: center;">
+        <a href="dashboard.html" class="exam-button">Back to Home</a>
+        <a href="view-questions.html"class="exam-button">View Questions</a>
+    </div>
+
+    <script src="js/admin.js"></script>
+
+</body>
+</html>

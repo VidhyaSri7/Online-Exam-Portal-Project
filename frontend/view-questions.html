@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Questions - Online Exam Portal</title>
+
+    <style>
+        table{
+            table-layout: fixed;
+        }
+        th,td{
+            width: 90px;
+            height:50px;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        button.delete-btn:hover{
+            background-color: red;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>View Questions - Online Exam Portal</h2>
+
+    <form id="examForm">
+        <label for="examSelect">
+            <strong>Select Exam:</strong>
+        </label>
+        <select id="examSelect" required>
+            <option value="">-- Select Exam --</option>
+        </select>
+    </form>
+
+    <div id="questionsSection" style="max-width: 900px; margin:0 auto;">
+        <table id="questionTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Q.No</th>
+                    <th>Question Text</th>
+                    <th>Option A</th>
+                    <th>Option B</th>
+                    <th>Option C</th>
+                    <th>Option D</th>
+                    <th>Correct Option</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="questionsBody"></tbody>
+        </table>
+
+        <div id="noQuestionMsg" style="display: none;">
+            No Questions Found for this Exam.
+        </div>
+
+        <div>
+            <center>
+                <a href="dashboard.html" class="exam-button">Back to Home</a>
+            </center>
+        </div>
+    </div>
+
+    <script src="js/view-questions.js"></script>
+</body>
+</html>

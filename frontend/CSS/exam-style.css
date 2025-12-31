@@ -1,0 +1,64 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    padding: 2rem;
+
+    background-image: url('../images/backgorund.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #007aff;
+    margin-bottom: 2rem;
+}
+
+.exam-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.exam-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exam-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.exam-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #007aff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.exam-button {
+    background: #007aff;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.exam-button:hover {
+    background: #005fcc;
+}

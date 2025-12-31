@@ -1,0 +1,36 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f0f0f5;
+    padding: 2rem;
+      
+    background-image: url('../images/backgorund.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+p {
+    margin-bottom: 0.5rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+button {
+    background: #007aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
