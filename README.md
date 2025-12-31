@@ -26,42 +26,6 @@ The backend is implemented using **Spring Boot REST APIs**, and the frontend is 
 
 ---
 
-## Project Structure
-
-online-exam-portal/
-│
-├── calm/                      # Spring Boot Backend
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/
-│   │       │   └── com/example/calm/
-│   │       │       ├── Controller/
-│   │       │       ├── Service/
-│   │       │       ├── Repository/
-│   │       │       ├── Model/
-│   │       │       └── CalmApplication.java
-│   │       └── resources/
-│   ├── pom.xml
-│   ├── mvnw
-│   └── mvnw.cmd
-│
-├── frontend/                  # Frontend (HTML, CSS, JS)
-│   ├── CSS/
-│   ├── IMAGES/
-│   ├── JS/
-│   ├── admin.html
-│   ├── attend-exam.html
-│   ├── dashboard.html
-│   ├── exam.html
-│   ├── list-exams.html
-│   ├── result.html
-│   ├── view-questions.html
-│   └── view-results.html
-│
-├── README.md
-└── .gitignore
-
----
 
 ## How to Run
 
